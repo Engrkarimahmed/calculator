@@ -1,0 +1,22 @@
+.main{
+    border: 2px solid grey;    
+    width: 240px;
+    margin: 70px auto;
+}
+.clearbtn{
+    margin-top: 4px;
+    
+    background-color: lightblue;
+}
+.Btn{
+    width: 55px;
+    background-color: lightblue;
+    margin-top: 9px;
+    
+}
+.inpbtn{
+    width: 95%;
+    color: black;
+    height: 40px;
+    font-size: 34px;
+}

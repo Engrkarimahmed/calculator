@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <table>
+            <tr>
+                <div >
+                    <input  id = "result" class="inpbtn" type="text">
+                </div>
+                
+            </tr>
+            
+            <tr>
+
+                    <td ><button class="clearbtn" style="width: 420%;" onclick="clearResult()">C</button></td>
+                           
+            </tr>
+        
+            <tr>
+                <td> <button class="Btn" onclick="setNumber('7')">7</button></td>
+                <td><button class="Btn" onclick="setNumber('8')">8</button></td>
+                <td><button class="Btn" onclick="setNumber('9')">9</button></td>
+                <td><button class="Btn" onclick="setNumber('*')">x</button></td>
+            </tr>
+            <tr>
+                <td> <button class="Btn" onclick="setNumber('4')">4</button></td>
+                <td><button class="Btn" onclick="setNumber('5')">5</button></td>
+                <td><button class="Btn" onclick="setNumber('6')">6</button></td>
+                <td><button class="Btn" onclick="setNumber('-')">-</button></td>
+            </tr>
+            
+            <tr>
+                <td> <button class="Btn" onclick="setNumber('1')">1</button></td>
+                <td><button class="Btn" onclick="setNumber('2')">2</button></td>
+                <td><button class="Btn" onclick="setNumber('3')">3</button></td>
+                <td><button class="Btn" onclick="setNumber('+')">+</button></td>
+            </tr>
+            
+            <tr>
+                <td> <button class="Btn" onclick="setNumber('.')">.</button></td>
+                <td><button class="Btn" onclick="setNumber('0')">0</button></td>
+                <td><button class="Btn" onclick="setNumber('/')">/</button></td>
+                <td><button class="Btn" onclick="getResult()">=</button></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
